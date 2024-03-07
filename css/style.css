@@ -5,3 +5,45 @@
     box-sizing: border-box;
     font-family: "SF-Pro-Text-Regular";
 }
+body{
+    background-color: blanchedalmond;
+}
+.header{
+    display: grid;
+    /* background: red; */
+    padding: 6px;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(1,1fr);
+    grid-template-areas: 
+    "logo burger";
+}
+.logo  {
+    grid-area: logo;
+    gap: 12px;
+}
+.logo h1{
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    font-family: "SF-Pro-Text-Bold";
+    letter-spacing: 4px;
+}
+.logo, .burger{
+    /* width: 100%; */
+    /* height: 25px; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.burger{
+    grid-area: burger;
+    justify-content: flex-end;
+}
+.burger img{
+    width: 35px;
+    height: 35px;
+}
+.burger img .svg
+.logo img{
+    width: 40px;
+    height: 35px;
+}
