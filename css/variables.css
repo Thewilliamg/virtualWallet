@@ -9,4 +9,12 @@
 :root{
     --color-primary: #00DDA3;
     --color-secundary: #33404F;
+    --color-ternario: #fff;
+    --color-cuaternario:gray;
+    --color-shadow-transparent:0px 0px 10px rgba(0, 0, 0, 0.216)
+}
+[data-card]::before{
+    content: attr(data-card);
+    color: var(--color-primary);
+    font-family: "SF-Pro-Text-Bold";
 }
