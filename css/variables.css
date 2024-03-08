@@ -14,6 +14,10 @@
     font-family: "SF-Pro-Text-Heavy.otf";
     src: url(../storage/font/SF-Pro-Text-Font-Family/SF-Pro-Text-Heavy.otf);
 }
+font-face {
+    font-family: "SF-Pro-Text-Light.otf";
+    src: url(../storage/font/SF-Pro-Text-Font-Family/SF-Pro-Text-Light.otf);
+}
 :root{
     --color-primary: #00DDA3;
     --color-secundary: #33404F;
