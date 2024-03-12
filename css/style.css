@@ -12,7 +12,7 @@ body{
     flex-direction: column;
     /* background-color: blanchedalmond; */
 }
-.header{
+.header_balance{
     display: grid;
     /* background: red; */
     padding: 6px;
@@ -21,17 +21,17 @@ body{
     grid-template-areas: 
     "logo burger";
 }
-.logo  {
+.balance_logo  {
     grid-area: logo;
     gap: 12px;
 }
-.logo h1{
+.balance_logo h1{
     font-size: 1.1rem;
     text-transform: uppercase;
     font-family: "SF-Pro-Text-Bold";
     letter-spacing: 4px;
 }
-.logo, .burger{
+.balance_logo, .burger{
     /* width: 100%; */
     /* height: 25px; */
     display: flex;
@@ -47,7 +47,7 @@ body{
     height: 35px;
 }
 .burger img .svg
-.logo img{
+.balance_logo img{
     width: 40px;
     height: 35px;
 }
@@ -128,7 +128,7 @@ body{
     width: 95%;
     height: auto;
 }
-.banner{
+.banner_balance{
     width: 100%;
     height: 8em;
     border-radius: 6px 6px 0 0;
@@ -141,26 +141,26 @@ body{
     justify-content: center;
     gap: 5%;
 }
-.banner img{
+.banner_balance img{
     padding-left: 5%;
     height: 50%;
 }
-.banner .banner_info{
+.banner_balance .banner_info{
     width: 55%;
     display: flex;
     flex-direction: column;
     gap: 10%;
     box-sizing: content-box;
 }
-.banner h2{
+.banner_balance h2{
     font-size: 1.4em;
     color: var(--color-secundary);
 }
-.banner p{
+.banner_balance p{
     font-size: 0.8em;
     color: var(--color-cuaternario);
 }
-.banner button{
+.banner_balance button{
     background: var(--color-primary);
     border: none;
     position: relative;
@@ -176,7 +176,7 @@ body{
     border-radius: 100%;
     /* z-index: 5; */
 }    
-.banner_close i{
+.banner_close_balance i{
     align-self: center;
     justify-self: center;
 }
