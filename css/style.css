@@ -39,10 +39,12 @@
 .profile_titule h3{
     font-size: 2em;
     font-family: "SF-Pro-Text-Heavy.otf";
+    text-align: center;
 }
 .profile_titule p{
     font-size: 2.3em;
     font-family: "SF-Pro-Text-Regular";
+    text-align: center;
 }
 .profile_process{
     display: flex;
@@ -56,6 +58,7 @@
     display: flex;
     flex-direction: column;
     width: 45%;
+    text-align: center;
 }
 .profile_savings small, 
 .profile_assets small{
@@ -129,8 +132,6 @@ progress[value]::-moz-progress-bar {
 
 } 
 
-
-
 .activities_carusel_card{
     width: 95vw;
     display: flex;
@@ -145,9 +146,9 @@ progress[value]::-moz-progress-bar {
 
 .activities_carusel_img{
     min-width: 30%;
-    min-height: 19vh;
+    min-height: 18vh;
     background-color: var(--color-ternario);
-    border-radius: 10px;
+    border-radius: 80px;
     box-shadow: var(--color-shadow-transparent);
     /* background-size: contain;
     background-repeat: no-repeat;
@@ -160,14 +161,12 @@ progress[value]::-moz-progress-bar {
     color: var(--color-secundary);
     margin: 15px 0;
     flex-wrap: wrap;
+    box-shadow: 0 2px 5px 0 var(--color-primary);
 }
 .activities_carusel_img small,
 
 .activities_carusel_img i{
     font-size: 2.5em;
-}
-.activities_carusel_img h4{
-    /* bottom: 20px; */
 }
 .transactions{
     display: flex;
@@ -209,6 +208,7 @@ progress[value]::-moz-progress-bar {
 .transaction_down i{
     color: var(--color-secundary);
     font-size: 1.8em;
+    scale: -1;
 }
 .transactions_value{
     /* background: violet; */
