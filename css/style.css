@@ -162,9 +162,7 @@ progress[value]::-moz-progress-bar {
     flex-wrap: wrap;
 }
 .activities_carusel_img small,
-.carusel_img h4{
-    position: absolute;
-}
+
 .activities_carusel_img i{
     font-size: 2.5em;
 }
