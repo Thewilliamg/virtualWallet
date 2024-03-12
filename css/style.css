@@ -7,10 +7,11 @@
 }
 /* Menu movil */
 .menu{
-    background: var(--color-secundary);
+    background:var(--color-primary);
     position: fixed;
     bottom: 0;
     width: 100%;
+    z-index: 5;
 }
 .menu ul{
     width: 100%;
@@ -34,6 +35,9 @@
 .menu ul li a{
     color: var(--color-primary);
     transition: color 0.3s ease-in-out;
+}
+.menu ul :nth-child(5){
+    box-shadow:0 0 15px 5px var(--color-secundary);
 }
 /* *********************************************** */
 .profile_banner{
@@ -240,9 +244,6 @@ progress[value]::-moz-progress-bar {
     color: var(--color-secundary);
     font-size: 1.8em;
     scale: -1;
-}
-.transactions_value{
-    /* background: violet; */
 }
 .transactions_description div p,
 .transactions_value p{
